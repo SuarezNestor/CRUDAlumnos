@@ -143,7 +143,6 @@ namespace CRUDAlumnos.Controllers
                 return View(alum);
             }
         }
-
         public ActionResult EliminarAlumno(int id)
         {
             using (var db = new AlumnosContext())
